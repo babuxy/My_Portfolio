@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+  <!-- <main> -->
+   
+      <div class="scroll-left">
+        <h1><p>Welcome to Barnali's world!!...</p></h1>
+      </div>
+
+      <div class="mygridArea">
+        <div class="firstquad">
+         <img src="Professional.jpg" align=left><b><h3>Hi!!,
+         Did you visit the page to know more about me?<h3></h3></b>
+         
+         So, here's how I am!! A bit of highs and lows..shades of various colors and a never say die spirit.
+         Love for all things natural but also passionate about 
+         <span id="dots">...</span><span id="more">
+         
+         developing stuff to fix human shortcomings
+         and align with the natural.
+         <br>
+         <br>
+        Challenges and failures alongwith self-motivation carves the path to success.
+         That's how I define myself. 
+        <br>
+        <br>
+         On the professional side, a great team worker, people manager and a good problem solver. Proficiency
+         in multiple areas, System Administration to software development to application support.. A lot 
+         journey covered and still lot left.. Love to learn new things which at times becomes is a challenge, but 
+         there ain't a mountain that can't be climbed without the right attitude.
+         <br> 
+         Browse my site, hand me the bouqets and throw in the brickbats!!! 
+         <!-- <br> -->
+      
+        </span>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+         <!-- <p>Alternately, I also shuffle my time as a<a href="https://www.google.com"> .....</a></p> -->
+         <!-- </p> -->
+          </div>
+        <div class="secondquad">
+           <b><h3>Projects:</h3></b>
+          <ul>
+            <li><a href="/prof_projects.html#dc">Data center Migration</a></li>
+            <li><a href="/prof_projects.html#swd">Software development</a></li>
+                <ol>1. Financial</ol>
+                <ol>2. Backend integrations</ol>
+                <ol>3. Core Banking</ol>
+            <li><a href="./prof_projects.html#iso">ISO 27001:2013 Data center certification</a></li>
+          </ul>
+          <br>
+          <b><h3>Trainings and certifications</h3></b>
+          <ul>
+            <li>ISO/IEC 27001 Lead certified auditor</a></li>
+            <li>RHSA III: Linux automation with Ansible</a></li>
+          
+       </div>
+
+
+        <div class="thirdquad">
+            
+<b><h3>Let's collaborate. Send me your details:</h3></b>
+<input type="text" name="fullName" value = "Your Name" id="fullName" required>
+<br>
+<br>
+<input type="text" name="email" value = "Your Email id" id="email" required>
+<input type="submit">
+
+</div>
+     
+       
+       
+        <div class="fourthquad">
+          <b><h3>My Gallery</h3></b>
+
+          <a target="_blank" href="./img_2.jpg">
+            <img src="img2.jpg" alt="Rocks">
+            <a target="_blank" href="./img_1.jpg">
+              <img src="img1.jpg" alt="Camping">
+              <a target="_blank" href="./img_3.jpg">
+                <img src="img3.jpg" alt="Nature">
+        </div>
+
+      </div>
+  
+<!-- </main> -->
+ 
+
+</body>
+
+</html>
